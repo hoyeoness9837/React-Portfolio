@@ -2,7 +2,7 @@
   "name": "react_portfoilo",
   "version": "0.1.0",
   "private": true,
-  "homeapge": "https://hoyeoness9837.github.io/React-Portfolio",
+  "homeapge": "https://hoyeoness9837.github.io/React-Portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

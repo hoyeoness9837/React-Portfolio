@@ -9,8 +9,10 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className='navbar navbar-expand-lg navbar-dark'
-        style={{ backgroundColor: 'red' }}>
+        <nav
+          className='navbar navbar-expand-lg navbar-dark'
+          style={{ backgroundColor: 'red' }}
+        >
           <Link to='/'>Main</Link>
           <Link to='/aboutme'>About Me</Link>
           <Link to='/projects'>Projects</Link>
@@ -25,6 +27,7 @@ function App() {
           <Route path='/projects'>
             <Project />
           </Route>
+          <Route path='/'>Not Found</Route>
         </Switch>
       </div>
     </Router>
